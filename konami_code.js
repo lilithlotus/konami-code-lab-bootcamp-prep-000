@@ -10,9 +10,11 @@ function init(e) {
     if(keyed === code[index]) {
       entered.push(keyed);
       index++;
-    }
-    if(entered === code) {
-      alert("Congrats!");
+      if(entered === code) {
+        alert("Congrats!");
+        index = 0;
+        entered = [];
+      }
     }
   });
 }
