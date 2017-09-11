@@ -5,7 +5,7 @@ let index = 0;
 let entered = [];
 
 function init(e) {
-  var keyed = parseInt(e.detail || e.which);
+  var keyed = parseInt(e.which|| e.detail);
   $("body").on("keydown", function() {
     if(keyed === code[index]) {
       entered.push(keyed);
