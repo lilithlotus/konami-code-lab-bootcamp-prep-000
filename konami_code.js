@@ -16,6 +16,6 @@ $("body").on("click0", function(e) {
     index = 0;
     keyedIn = [];
   }
-  
+
 });
 }
