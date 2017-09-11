@@ -8,7 +8,7 @@ function init(e) {
   var keyed = parseInt(e.detail || e.which);
   $("body").on("keydown", function() {
     if(keyed === code[index]) {
-      entered.push(entered);
+      entered.push(keyed);
       index++;
     }
     if(entered === code) {
