@@ -4,7 +4,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 let index = 0;
 let entered = [];
 
-function init(e) {
+function init() {
   var keyed = parseInt(e.which|| e.detail);
   $("body").on("keydown", function() {
     if(keyed === code[index]) {
