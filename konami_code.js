@@ -10,7 +10,7 @@ function init() {
     if(keyed === code[index]) {
       entered.push(keyed);
       index++;
-      if(entered == code) {
+      if(entered === code) {
         alert("Congrats!");
         index = 0;
         entered = [];
