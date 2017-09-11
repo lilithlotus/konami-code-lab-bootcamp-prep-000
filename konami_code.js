@@ -12,7 +12,7 @@ function init() {
       entered.push(keyed);
       index++;
         console.log(entered)
-      if(entered === code) {
+      if(entered.length === code.length) {
         alert("Congrats!");
         index = 0;
         entered = [];
