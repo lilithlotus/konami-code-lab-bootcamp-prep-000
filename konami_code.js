@@ -5,7 +5,7 @@ let index = 0;
 let entered = [];
 
 function init() {
-  body.addEventListener("keydown", function(e) {
+  document.body.addEventListener("keydown", function(e) {
     var keyed = parseInt(e.which|| e.detail);
 
     console.log(keyed)
