@@ -8,11 +8,11 @@ function init(e) {
   var keyed = parseInt(e.detail || e.which);
   $("body").on("keydown", function() {
     if(keyed === code[index]) {
-      entered.push(keyed);
+      entered.push(entered);
       index++;
     }
     if(entered === code) {
-      alert("Congratulations!");
+      alert("Congrats!");
     }
   });
 }
