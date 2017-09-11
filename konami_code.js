@@ -15,6 +15,8 @@ function init(e) {
         index = 0;
         entered = [];
       }
+    } else {
+      index = 0;
     }
   });
 }
