@@ -5,7 +5,7 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-$("body").on("click0", function(e) {
+$("body").on("click", function(e) {
   var key = parseInt(e.detail || e.which);
   var keyedIn = [];
   if(key === code[index]) {
