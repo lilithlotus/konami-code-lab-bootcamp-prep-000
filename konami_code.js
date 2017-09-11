@@ -7,10 +7,11 @@ let entered = [];
 function init() {
   document.body.addEventListener("keydown", function(e) {
     var keyed = parseInt(e.which|| e.detail);
+    
+    console.log(keyed)
     if(keyed === code[index]) {
       entered.push(keyed);
       index++;
-      console.log(entered)
       if(entered === code) {
         alert("Congrats!");
         index = 0;
