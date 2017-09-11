@@ -11,7 +11,6 @@ function init() {
     if(keyed === code[index]) {
       entered.push(keyed);
       index++;
-        console.log(entered)
       if(entered.length === code.length) {
         alert("Congrats!");
         index = 0;
@@ -22,5 +21,3 @@ function init() {
     }
   });
 }
-
-
